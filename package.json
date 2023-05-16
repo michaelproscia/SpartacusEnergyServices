@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.14",
     "@heroicons/react": "^2.0.18",
+    "fontawesome": "^5.6.3",
+    "fortawesome": "^0.0.1-security",
     "headlessui": "^0.0.0",
     "heroicons": "^2.0.18",
     "react": "^18.2.0",

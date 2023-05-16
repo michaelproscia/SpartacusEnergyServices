@@ -1,3 +1,11 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faTwitter,
+  faFacebookSquare,
+  faDribbble,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 function Footer() {
   return (
     <footer className="relative bg-blueGray-200 pt-8 pb-6">
@@ -15,25 +23,25 @@ function Footer() {
                 className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i className="fab fa-twitter"></i>
+                <FontAwesomeIcon icon={faTwitter} />
               </button>
               <button
                 className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i className="fab fa-facebook-square"></i>
+                <FontAwesomeIcon icon={faFacebookSquare} />
               </button>
               <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                className="bg-white text-lightblue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i className="fab fa-dribbble"></i>
+                <FontAwesomeIcon icon={faDribbble} />
               </button>
               <button
                 className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <i className="fab fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </button>
             </div>
           </div>
