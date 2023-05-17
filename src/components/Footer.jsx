@@ -4,6 +4,7 @@ import {
   faFacebookSquare,
   faDribbble,
   faGithub,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
@@ -32,13 +33,7 @@ function Footer() {
                 className="bg-white text-lightblue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                 type="button"
               >
-                <FontAwesomeIcon icon={faDribbble} />
-              </button>
-              <button
-                className="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
-                type="button"
-              >
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faInstagram} />
               </button>
             </div>
           </div>
